@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 70px;
+}
+
+.brand-img {
+	height: 20px;
+	width: auto;
+}
+h1 .brand-img {
+	height: 36px;
+	margin-top: -14px;
+}
+
+.jc-banner {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 51px;
+	padding-bottom: 51px;
+	border: 1px solid #000;
+	background: url('../images/rpgbanner.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+}
+.jc-banner h1, .jc-banner h3 {
+	margin: 0px;
+	background-color: rgba(0,0,0,0.70)
+}
+.jc-banner h1 {
+	padding: 5px 0 10px;
+}
+.jc-banner h3 {
+	padding: 10px 0 5px;
+}
+
+.jc-head {
+	text-transform:uppercase;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #000;
+}
+
+.jc-game-details {
+	min-width: 140px;
+}
+
+.jc-game-details .btn {
+/*	width: 100%;*/
+/*	display: block;*/
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+aside .btn {
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.jc-social a {
+	font-size: 3.2rem;
+	margin-right: 10px;
+}
+.hj-social img {
+	height: 2.9rem;
+	width: auto;
+	vertical-align: top;
+	margin-top: .7rem;
+}

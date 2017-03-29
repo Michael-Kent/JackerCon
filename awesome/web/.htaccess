@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteCond $1 !^(index.php|resources|robots.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
+Header add Access-Control-Allow-Origin "http://jackercon.info"
+Header add Access-Control-Allow-Origin "http://www.jackercon.info"
+Header add Access-Control-Allow-Origin "jackercon.info"
+
+Header add Access-Control-Allow-Origin "https://jackercon.com"
+Header add Access-Control-Allow-Origin "https://www.jackercon.com"
+Header add Access-Control-Allow-Origin "jackercon.com"
+
+
+Header add Access-Control-Allow-Origin "http://192.168.56.101/"
