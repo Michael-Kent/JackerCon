@@ -3,7 +3,7 @@
   <div class="row">
     <div class="text-center col-md-6 col-md-offset-3">
       <h4>Footer </h4>
-      <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot; <a href="http://yourwebsite.com/" >My Website</a></p>
+      <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot; <a href="https://www.JackerCon.com/" >JackerCon</a></p>
     </div>
   </div>
   <hr>
@@ -22,7 +22,7 @@
 	echo('<script src="'.base_url("resources/JackerConJS/FormHandler.js").'"></script>'."\n");
 	echo('<script src="'.base_url("resources/JackerConJS/NavigationAnimation.js").'"></script>'."\n");
 	echo('<script src="'.base_url("resources/JackerConJS/GameForm.js").'"></script>'."\n");
-	echo('<script src="'.base_url("resources/JackerConJS/View.js").'"></script>'."\n");
+	echo('<script src="'.base_url("resources/JackerConJS/DateView.js").'"></script>'."\n");
 	echo('<script src="'.base_url("resources/JackerConJS/Google.js").'"></script>'."\n");
 
 ?>

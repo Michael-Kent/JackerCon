@@ -12,8 +12,8 @@
 				  </div>
 				  <div class="media-left media-top jc-game-details">
 					<div>
-						<span class='timestamp start'><?=date($game['timestampStart']);?></span> - 
-						<span class='timestamp finish'><?=date($game['timestampFinish']);?></span>
+		<span class="timestamp start"><?=date('Y-m-d\TH:i:00',$game['timestampStart']);?></span>-
+		<span class="timestamp finish"><?=date('Y-m-d\TH:i:00',$game['timestampFinish']);?></span>
 						<br>
 						Players <?=count($game['players']);?>/<?=$game['maxPlayers'];?><br>
 						System: <?=$game['system']?><br>
