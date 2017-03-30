@@ -2,11 +2,11 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="jc-banner">
-      	<h3 class="text-center">JACKERCON 12 ENDS IN...</h3>
+      	<h3 class="text-center">JACKERCON 13 BEGINS IN...</h3>
       	<h1 class="text-center">
-			<strong><span class="count">day,March 25 2017</span></strong> DAYS, 
-			<strong><span class="count">hour,March 25 2017</span></strong> HOURS, 
-			<strong><span class="count">minute,March 25 2017</span></strong> MINUTES
+			<strong><span class="count">day,June 21 2017</span></strong> DAYS, 
+			<strong><span class="count">hour,June 21 2017</span></strong> HOURS, 
+			<strong><span class="count">minute,June 21 2017</span></strong> MINUTES
 		</h1>
       </div>
     </div>
